@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ok 1`] = `
+<div>
+  <div
+    className="buttonsContainer"
+  >
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <div
+      className="counterDisplay"
+    >
+      0
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+  <input
+    id="someNumber"
+    onChange={[Function]}
+    type="number"
+    value=""
+  />
+  <label
+    htmlFor="someNumber"
+  >
+    <button
+      onClick={[Function]}
+    >
+      change
+    </button>
+  </label>
+  <button
+    className="resetBtn"
+    onClick={[Function]}
+  >
+    reset
+  </button>
+</div>
+`;

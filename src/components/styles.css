@@ -1,0 +1,38 @@
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 40px;
+    width: 60px;
+    margin: 10px;
+    background-color: #9b59b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid gray;
+    transition: 0.3s;
+   
+}
+
+button:hover {
+    background-color: #e67e22;
+    border: 2px solid #c0392b;
+}
+
+.resetBtn {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+input {
+    height: 20px;
+    width: 50px;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
