@@ -2,7 +2,7 @@ import Counter from "./components/Counter";
 
 import "./App.css";
 
-// const initialNumb = 0;
+const initialNumb = 0;
 
 function App() {
   return (
