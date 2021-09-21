@@ -38,12 +38,15 @@ describe("Counter component", () => {
     counter = wrapper.find(".counterDisplay");
     expect(counter.text()).toBe("-1");
   });
-  it("should change button state", () => {
+  it("should change state if add number to input and click change button", () => {
     const wrapper = shallow(<Counter />);
     let input = wrapper.find("input").at(0);
     input.simulate("change", { target: { value: 100 } });
     input = wrapper.find("input").at(0);
     expect(input.props().value).toEqual(100);
+    wrapper.find("button").at(2).simulate("click");
+    let counter = wrapper.find(".counterDisplay");
+    expect(counter.text()).toBe("100");
   });
   it("should button 'reset' set state to 0", () => {
     const wrapper = shallow(<Counter />);
